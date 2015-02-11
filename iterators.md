@@ -7,8 +7,8 @@ Below you will find a list of methods. In the space provided below each, please 
 May be helpful to look in [Enumerable](http://ruby-doc.org/core-2.2.0/Enumerable.html) as well...
 
 ####select:
-Returns new array with elements that return true when executing the block
-####reject:
+    Returns new array with elements that return true when executing the block
+    ####reject:
 Returns array with the values that return false when running the block
 ####map:
 Creates new array with all the elements affected by the block
@@ -36,10 +36,11 @@ Returns true if the array includes the parameter
 returns true when the variable or parameter is equal to nil
 ###Hash methods:
 
-####has_key?:
+####key?:
 return true if hash contains a key
 ####keys:
 should return array with all the keys
 ####delete:
-return new hash without the value of key that is deleted
+returns the value of the deleted key
 ####delete_if:
+Returns the original hash without the deleted element
